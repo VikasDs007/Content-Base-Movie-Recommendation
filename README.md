@@ -51,8 +51,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/cinematch-ai-recommendations.git
-   cd cinematch-ai-recommendations
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
    ```
 
 2. **Install dependencies**
@@ -162,7 +162,7 @@ Your `movies.csv` should include these columns:
 
 ## 🤝 Contributing
 
-We welcome contributions! Here's how you can help:
+Contributions are welcome! Here's how you can help:
 
 ### 🐛 Bug Reports
 - Use GitHub Issues
@@ -177,7 +177,7 @@ We welcome contributions! Here's how you can help:
 ### 🔧 Development Setup
 ```bash
 # Fork the repository
-git clone https://github.com/yourusername/cinematch-ai-recommendations.git
+git clone https://github.com/yourusername/your-repo-name.git
 
 # Create a feature branch
 git checkout -b feature/amazing-feature
@@ -223,7 +223,7 @@ git commit -m "Deploy to Heroku"
 git push heroku main
 ```
 
-## 📊 Roadmap
+## 📊 Future Enhancements
 
 - [ ] **User Accounts**: Save favorite movies and recommendations
 - [ ] **Advanced Filters**: Filter by year, rating, genre
@@ -237,26 +237,34 @@ git push heroku main
 
 - **Dataset**: Thanks to IMDb for movie data
 - **Inspiration**: Netflix and Spotify recommendation systems
-- **Community**: Streamlit and scikit-learn communities
-- **Contributors**: All the amazing people who contribute to this project
+- **Libraries**: Streamlit, scikit-learn, and pandas communities
+- **Learning**: Built as a machine learning and web development project
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Support
+## 📞 Contact & Support
 
-- 📧 **Email**: support@cinematch.ai
-- 💬 **Discord**: [Join our community](https://discord.gg/cinematch)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/cinematch-ai-recommendations/issues)
-- 📖 **Docs**: [Full Documentation](https://cinematch.readthedocs.io)
+- � **Issiues**: [GitHub Issues](https://github.com/yourusername/your-repo-name/issues)
+- � **Fesature Requests**: Open an issue with your ideas
+- � **Csontact**: Feel free to reach out for questions or collaborations
+
+## 👨‍💻 About the Developer
+
+This project was created as a demonstration of:
+- **Machine Learning**: Content-based recommendation systems
+- **Web Development**: Interactive applications with Streamlit
+- **Data Science**: TF-IDF vectorization and similarity analysis
+- **Software Engineering**: Clean code, documentation, and deployment
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by the CineMatch Team**
+**Built with ❤️ and lots of ☕**
 
-[⭐ Star this repo](https://github.com/yourusername/cinematch-ai-recommendations) • [🍴 Fork it](https://github.com/yourusername/cinematch-ai-recommendations/fork) • [📢 Share it](https://twitter.com/intent/tweet?text=Check%20out%20CineMatch%20-%20AI%20Movie%20Recommendations!&url=https://github.com/yourusername/cinematch-ai-recommendations)
+*If you found this project helpful, please consider giving it a ⭐*
 
+[⭐ Star this repo]https://github.com/VikasDs007/Content-Base-Movie-Recommendation  
 </div>
