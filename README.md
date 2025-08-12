@@ -60,9 +60,9 @@
    pip install -r requirements.txt
    ```
 
-3. **Prepare your dataset**
-   - Place your `movies.csv` file in the `data/` folder
-   - Required columns: `title`, `genres`, `description`, `directors`, `stars`, `year`, `rating`
+3. **Dataset included**
+   - The `data/movies.csv` file contains 60K+ movies from IMDb
+   - Ready to use out of the box!
 
 4. **Run the application**
    ```bash

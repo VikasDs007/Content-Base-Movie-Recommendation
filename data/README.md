@@ -1,10 +1,10 @@
 # Dataset Directory
 
-This directory should contain your movie dataset file.
+This directory contains the movie dataset used by CineMatch.
 
-## Required File
+## Included Dataset
 
-Place your movie dataset as `movies.csv` in this directory.
+The `movies.csv` file contains a comprehensive movie database with 60K+ movies from IMDb.
 
 ## Dataset Format
 
@@ -56,13 +56,13 @@ The application will automatically:
 - Process list-like strings for genres, directors, and stars
 - Apply feature weighting for better recommendations
 
-## Privacy and Legal
+## Dataset Information
 
-⚠️ **Important**: 
-- Ensure you have the right to use your dataset
-- Respect copyright and licensing terms
-- Don't include personal or sensitive information
-- Follow data protection regulations (GDPR, etc.)
+📊 **Current Dataset**: 
+- **Source**: IMDb public dataset
+- **Size**: 60K+ movies
+- **License**: Public domain / Fair use for educational/research purposes
+- **Content**: Movie titles, genres, descriptions, cast, directors, ratings
 
 ## File Size Recommendations
 

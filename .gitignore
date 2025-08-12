@@ -131,14 +131,13 @@ dmypy.json
 # Streamlit
 .streamlit/secrets.toml
 
-# Dataset files (user should provide their own)
-data/movies.csv
+# Large dataset files (keep data/ folder structure)
 data/*_large.csv
 data/*.json
 data/*.parquet
 
-# Allow sample data
-!data/sample_movies.csv
+# Allow the main dataset and documentation
+!data/movies.csv
 !data/README.md
 
 # IDE files
