@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import difflib
+import os
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import warnings
@@ -50,7 +51,13 @@ class MovieRecommendationSystem:
     A content-based movie recommendation system using TF-IDF and cosine similarity.
     """
     
-    def __init__(self, data_path='data/movies.csv', max_features=5000):
+    def __init__(self, data_path=None, max_features=5000):
+        # Try main dataset first, fallback to sample
+        if data_path is None:
+            if os.path.exists('data/movies.csv'):
+                data_path = 'data/movies.csv'
+            else:
+                data_path = 'data/sample_movies.csv'
         self.data_path = data_path
         self.max_features = max_features
         self.movie_data = None
@@ -300,7 +307,11 @@ def main():
         st.write("• Verify CSV format and columns")
         return
     
-    st.success(f"✅ CineMatch AI is ready! Database loaded with {len(recommender.movie_data):,} movies.")
+    # Check if using sample data
+    if 'sample_movies.csv' in recommender.data_path:
+        st.info(f"📊 Using sample dataset with {len(recommender.movie_data):,} movies. Add your own `movies.csv` to the `data/` folder for a full experience!")
+    else:
+        st.success(f"✅ CineMatch AI is ready! Database loaded with {len(recommender.movie_data):,} movies.")
     
     # Sidebar
     with st.sidebar:

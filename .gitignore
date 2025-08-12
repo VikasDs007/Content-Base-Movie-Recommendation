@@ -133,9 +133,13 @@ dmypy.json
 
 # Dataset files (user should provide their own)
 data/movies.csv
-data/*.csv
+data/*_large.csv
 data/*.json
 data/*.parquet
+
+# Allow sample data
+!data/sample_movies.csv
+!data/README.md
 
 # IDE files
 .vscode/
